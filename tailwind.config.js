@@ -6,9 +6,6 @@ export default {
   ],
   theme: {
     extend: {
-      maxWidth: {
-        "container": "1320px"
-      },
       fontFamily: {
         "inter": ["Inter", "sans-serif"],
       },
@@ -18,7 +15,7 @@ export default {
         'golden': '#ffae00',
       },
       backgroundImage: {
-        "home-bg-image": "url(/images/home-banner-bg.jpg)"
+        "home-bg-image": "url(../src/assets/home-bg-image.png)"
       }
     },
   },
